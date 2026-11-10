@@ -1,0 +1,15 @@
+queue
+id	
+name
+
+---
+
+queue_queue_managers
+queue_id
+queue_manager_id
+
+---
+
+queue_manager
+id
+name
