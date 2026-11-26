@@ -3,6 +3,9 @@ id
 name
 
 CREATE TABLE "object" (id int PRIMARY KEY, name varchar(48));
+
+ALTER TABLE "object" ADD UNIQUE (name);
+
 INSERT INTO "object" VALUES (1, 'BT.DEV.QUEUE.1');
 INSERT INTO "object" VALUES (2, 'BT.DEV.QUEUE.2');
 INSERT INTO "object" VALUES (3, 'BT.DEV.QUEUE.3');
@@ -11,8 +14,47 @@ INSERT INTO "object" VALUES (5, 'BT.DEV.QUEUE.5');
 INSERT INTO "object" VALUES (6, 'BT.DEV.QUEUE.6');
 INSERT INTO "object" VALUES (7, 'BT.DEV.QUEUE.7');
 INSERT INTO "object" VALUES (8, 'BT.DEV.QUEUE.8');
-
-ALTER TABLE "object" ADD UNIQUE (name);
+INSERT INTO "object" VALUES (9, 'BT.DEV.QUEUE.9');
+INSERT INTO "object" VALUES (10, 'BT.DEV.QUEUE.10');
+INSERT INTO "object" VALUES (11, 'BT.DEV.QUEUE.11');
+INSERT INTO "object" VALUES (12, 'BT.DEV.QUEUE.12');
+INSERT INTO "object" VALUES (13, 'BT.DEV.QUEUE.13');
+INSERT INTO "object" VALUES (14, 'BT.DEV.QUEUE.14');
+INSERT INTO "object" VALUES (15, 'BT.DEV.QUEUE.15');
+INSERT INTO "object" VALUES (16, 'BT.DEV.QUEUE.16');
+INSERT INTO "object" VALUES (17, 'BT.DEV.QUEUE.17');
+INSERT INTO "object" VALUES (18, 'BT.DEV.QUEUE.18');
+INSERT INTO "object" VALUES (19, 'BT.DEV.QUEUE.19');
+INSERT INTO "object" VALUES (20, 'BT.DEV.QUEUE.20');
+INSERT INTO "object" VALUES (21, 'BT.DEV.QUEUE.21');
+INSERT INTO "object" VALUES (22, 'BT.DEV.QUEUE.22');
+INSERT INTO "object" VALUES (23, 'BT.DEV.QUEUE.23');
+INSERT INTO "object" VALUES (24, 'BT.DEV.QUEUE.24');
+INSERT INTO "object" VALUES (25, 'BT.DEV.QUEUE.25');
+INSERT INTO "object" VALUES (26, 'BT.DEV.QUEUE.26');
+INSERT INTO "object" VALUES (27, 'BT.DEV.QUEUE.27');
+INSERT INTO "object" VALUES (28, 'BT.DEV.QUEUE.28');
+INSERT INTO "object" VALUES (29, 'BT.DEV.QUEUE.29');
+INSERT INTO "object" VALUES (30, 'BT.DEV.QUEUE.30');
+INSERT INTO "object" VALUES (31, 'BT.DEV.QUEUE.31');
+INSERT INTO "object" VALUES (32, 'BT.DEV.QUEUE.32');
+INSERT INTO "object" VALUES (33, 'BT.DEV.QUEUE.33');
+INSERT INTO "object" VALUES (34, 'BT.DEV.QUEUE.34');
+INSERT INTO "object" VALUES (35, 'BT.DEV.QUEUE.35');
+INSERT INTO "object" VALUES (36, 'BT.DEV.QUEUE.36');
+INSERT INTO "object" VALUES (37, 'BT.DEV.QUEUE.37');
+INSERT INTO "object" VALUES (38, 'BT.DEV.QUEUE.38');
+INSERT INTO "object" VALUES (39, 'BT.DEV.QUEUE.39');
+INSERT INTO "object" VALUES (40, 'BT.DEV.QUEUE.40');
+INSERT INTO "object" VALUES (41, 'BT.DEV.QUEUE.41');
+INSERT INTO "object" VALUES (42, 'BT.DEV.QUEUE.42');
+INSERT INTO "object" VALUES (43, 'BT.DEV.QUEUE.43');
+INSERT INTO "object" VALUES (44, 'BT.DEV.QUEUE.44');
+INSERT INTO "object" VALUES (45, 'BT.DEV.QUEUE.45');
+INSERT INTO "object" VALUES (46, 'BT.DEV.QUEUE.46');
+INSERT INTO "object" VALUES (47, 'BT.DEV.QUEUE.47');
+INSERT INTO "object" VALUES (48, 'BT.DEV.QUEUE.48');
+INSERT INTO "object" VALUES (49, 'BT.DEV.QUEUE.49');
 
 ---
 
@@ -27,12 +69,176 @@ ALTER TABLE object_queue_manager ADD UNIQUE(object_id, queue_manager_id);
 INSERT INTO "object_queue_manager" VALUES (1, 1);
 INSERT INTO "object_queue_manager" VALUES (1, 2);
 INSERT INTO "object_queue_manager" VALUES (2, 1);
+INSERT INTO "object_queue_manager" VALUES (2, 3);
 INSERT INTO "object_queue_manager" VALUES (3, 1);
+INSERT INTO "object_queue_manager" VALUES (3, 4);
 INSERT INTO "object_queue_manager" VALUES (4, 1);
-INSERT INTO "object_queue_manager" VALUES (5, 2);
-INSERT INTO "object_queue_manager" VALUES (6, 2);
-INSERT INTO "object_queue_manager" VALUES (7, 3);
-INSERT INTO "object_queue_manager" VALUES (8, 3);
+INSERT INTO "object_queue_manager" VALUES (5, 1);
+INSERT INTO "object_queue_manager" VALUES (6, 1);
+INSERT INTO "object_queue_manager" VALUES (7, 1);
+INSERT INTO "object_queue_manager" VALUES (8, 1);
+INSERT INTO "object_queue_manager" VALUES (9, 2);
+INSERT INTO "object_queue_manager" VALUES (10, 2);
+INSERT INTO "object_queue_manager" VALUES (11, 2);
+INSERT INTO "object_queue_manager" VALUES (12, 2);
+INSERT INTO "object_queue_manager" VALUES (13, 2);
+INSERT INTO "object_queue_manager" VALUES (14, 2);
+INSERT INTO "object_queue_manager" VALUES (15, 2);
+INSERT INTO "object_queue_manager" VALUES (16, 2);
+INSERT INTO "object_queue_manager" VALUES (17, 3);
+INSERT INTO "object_queue_manager" VALUES (18, 3);
+INSERT INTO "object_queue_manager" VALUES (19, 3);
+INSERT INTO "object_queue_manager" VALUES (20, 3);
+INSERT INTO "object_queue_manager" VALUES (21, 3);
+INSERT INTO "object_queue_manager" VALUES (22, 3);
+INSERT INTO "object_queue_manager" VALUES (23, 3);
+INSERT INTO "object_queue_manager" VALUES (24, 3);
+INSERT INTO "object_queue_manager" VALUES (25, 4);
+INSERT INTO "object_queue_manager" VALUES (26, 4);
+INSERT INTO "object_queue_manager" VALUES (27, 4);
+INSERT INTO "object_queue_manager" VALUES (28, 4);
+INSERT INTO "object_queue_manager" VALUES (29, 4);
+INSERT INTO "object_queue_manager" VALUES (30, 4);
+INSERT INTO "object_queue_manager" VALUES (31, 4);
+INSERT INTO "object_queue_manager" VALUES (32, 4);
+INSERT INTO "object_queue_manager" VALUES (33, 4);
+INSERT INTO "object_queue_manager" VALUES (34, 5);
+INSERT INTO "object_queue_manager" VALUES (35, 5);
+INSERT INTO "object_queue_manager" VALUES (36, 7);
+INSERT INTO "object_queue_manager" VALUES (37, 7);
+INSERT INTO "object_queue_manager" VALUES (38, 7);
+INSERT INTO "object_queue_manager" VALUES (39, 8);
+INSERT INTO "object_queue_manager" VALUES (40, 8);
+INSERT INTO "object_queue_manager" VALUES (41, 8);
+INSERT INTO "object_queue_manager" VALUES (42, 9);
+INSERT INTO "object_queue_manager" VALUES (43, 9);
+INSERT INTO "object_queue_manager" VALUES (44, 9);
+INSERT INTO "object_queue_manager" VALUES (45, 10);
+INSERT INTO "object_queue_manager" VALUES (46, 10);
+INSERT INTO "object_queue_manager" VALUES (47, 10);
+INSERT INTO "object_queue_manager" VALUES (48, 6);
+INSERT INTO "object_queue_manager" VALUES (49, 6);
+
+---
+
+object_application
+object_id
+application_id
+
+CREATE TABLE "object_application" (object_id int PRIMARY KEY REFERENCES object(id), application_id int REFERENCES application(id));
+
+ALTER TABLE object_application ADD UNIQUE(object_id, application_id);
+
+INSERT INTO "object_application" VALUES (1, 1);
+INSERT INTO "object_application" VALUES (1, 1);
+INSERT INTO "object_application" VALUES (2, 1);
+INSERT INTO "object_application" VALUES (3, 1);
+INSERT INTO "object_application" VALUES (4, 1);
+INSERT INTO "object_application" VALUES (5, 1);
+INSERT INTO "object_application" VALUES (6, 1);
+INSERT INTO "object_application" VALUES (7, 1);
+INSERT INTO "object_application" VALUES (8, 1);
+INSERT INTO "object_application" VALUES (9, 1);
+INSERT INTO "object_application" VALUES (10, 1);
+INSERT INTO "object_application" VALUES (11, 1);
+INSERT INTO "object_application" VALUES (12, 1);
+INSERT INTO "object_application" VALUES (13, 1);
+INSERT INTO "object_application" VALUES (14, 1);
+INSERT INTO "object_application" VALUES (15, 1);
+INSERT INTO "object_application" VALUES (16, 1);
+INSERT INTO "object_application" VALUES (17, 1);
+INSERT INTO "object_application" VALUES (18, 1);
+INSERT INTO "object_application" VALUES (19, 1);
+INSERT INTO "object_application" VALUES (20, 1);
+INSERT INTO "object_application" VALUES (21, 1);
+INSERT INTO "object_application" VALUES (22, 1);
+INSERT INTO "object_application" VALUES (23, 1);
+INSERT INTO "object_application" VALUES (24, 1);
+INSERT INTO "object_application" VALUES (25, 1);
+INSERT INTO "object_application" VALUES (26, 1);
+INSERT INTO "object_application" VALUES (27, 1);
+INSERT INTO "object_application" VALUES (28, 1);
+INSERT INTO "object_application" VALUES (29, 1);
+INSERT INTO "object_application" VALUES (30, 1);
+INSERT INTO "object_application" VALUES (31, 1);
+INSERT INTO "object_application" VALUES (32, 1);
+INSERT INTO "object_application" VALUES (33, 1);
+INSERT INTO "object_application" VALUES (34, 1);
+INSERT INTO "object_application" VALUES (35, 1);
+INSERT INTO "object_application" VALUES (36, 1);
+INSERT INTO "object_application" VALUES (37, 1);
+INSERT INTO "object_application" VALUES (38, 1);
+INSERT INTO "object_application" VALUES (39, 1);
+INSERT INTO "object_application" VALUES (40, 1);
+INSERT INTO "object_application" VALUES (41, 1);
+INSERT INTO "object_application" VALUES (42, 1);
+INSERT INTO "object_application" VALUES (43, 1);
+INSERT INTO "object_application" VALUES (44, 1);
+INSERT INTO "object_application" VALUES (45, 1);
+INSERT INTO "object_application" VALUES (46, 1);
+INSERT INTO "object_application" VALUES (47, 1);
+INSERT INTO "object_application" VALUES (48, 1);
+INSERT INTO "object_application" VALUES (49, 1);
+
+---
+
+object_object_type
+object_id
+object_type_id
+
+CREATE TABLE "object_object_type" (object_id int PRIMARY KEY REFERENCES object(id), object_type_id int REFERENCES object_type(id));
+
+ALTER TABLE object_object_type ADD UNIQUE(object_id, object_type_id);
+
+INSERT INTO "object_object_type" VALUES (1, 6);
+INSERT INTO "object_object_type" VALUES (2, 6);
+INSERT INTO "object_object_type" VALUES (3, 6);
+INSERT INTO "object_object_type" VALUES (4, 6);
+INSERT INTO "object_object_type" VALUES (5, 6);
+INSERT INTO "object_object_type" VALUES (6, 6);
+INSERT INTO "object_object_type" VALUES (7, 6);
+INSERT INTO "object_object_type" VALUES (8, 6);
+INSERT INTO "object_object_type" VALUES (9, 6);
+INSERT INTO "object_object_type" VALUES (10, 6);
+INSERT INTO "object_object_type" VALUES (11, 6);
+INSERT INTO "object_object_type" VALUES (12, 6);
+INSERT INTO "object_object_type" VALUES (13, 6);
+INSERT INTO "object_object_type" VALUES (14, 6);
+INSERT INTO "object_object_type" VALUES (15, 6);
+INSERT INTO "object_object_type" VALUES (16, 6);
+INSERT INTO "object_object_type" VALUES (17, 6);
+INSERT INTO "object_object_type" VALUES (18, 6);
+INSERT INTO "object_object_type" VALUES (19, 6);
+INSERT INTO "object_object_type" VALUES (20, 6);
+INSERT INTO "object_object_type" VALUES (21, 6);
+INSERT INTO "object_object_type" VALUES (22, 6);
+INSERT INTO "object_object_type" VALUES (23, 6);
+INSERT INTO "object_object_type" VALUES (24, 6);
+INSERT INTO "object_object_type" VALUES (25, 6);
+INSERT INTO "object_object_type" VALUES (26, 6);
+INSERT INTO "object_object_type" VALUES (27, 6);
+INSERT INTO "object_object_type" VALUES (28, 6);
+INSERT INTO "object_object_type" VALUES (29, 6);
+INSERT INTO "object_object_type" VALUES (30, 6);
+INSERT INTO "object_object_type" VALUES (31, 6);
+INSERT INTO "object_object_type" VALUES (32, 6);
+INSERT INTO "object_object_type" VALUES (33, 6);
+INSERT INTO "object_object_type" VALUES (34, 6);
+INSERT INTO "object_object_type" VALUES (35, 6);
+INSERT INTO "object_object_type" VALUES (36, 6);
+INSERT INTO "object_object_type" VALUES (37, 6);
+INSERT INTO "object_object_type" VALUES (38, 6);
+INSERT INTO "object_object_type" VALUES (39, 6);
+INSERT INTO "object_object_type" VALUES (40, 6);
+INSERT INTO "object_object_type" VALUES (41, 6);
+INSERT INTO "object_object_type" VALUES (42, 6);
+INSERT INTO "object_object_type" VALUES (43, 6);
+INSERT INTO "object_object_type" VALUES (44, 6);
+INSERT INTO "object_object_type" VALUES (45, 6);
+INSERT INTO "object_object_type" VALUES (46, 6);
+INSERT INTO "object_object_type" VALUES (47, 6);
+INSERT INTO "object_object_type" VALUES (48, 6);
+INSERT INTO "object_object_type" VALUES (49, 6);
 
 ---
 
@@ -41,10 +247,19 @@ id
 name
 
 CREATE TABLE "queue_manager" (id int PRIMARY KEY, name varchar(48));
+
+ALTER TABLE "queue_manager" ADD UNIQUE (name);
+
 INSERT INTO "queue_manager" VALUES (1, 'BT.QM1');
 INSERT INTO "queue_manager" VALUES (2, 'BT.QM2');
 INSERT INTO "queue_manager" VALUES (3, 'BT.QM3');
 INSERT INTO "queue_manager" VALUES (4, 'BT.QM4');
+INSERT INTO "queue_manager" VALUES (5, 'BT.QM5');
+INSERT INTO "queue_manager" VALUES (6, 'BT.QM6');
+INSERT INTO "queue_manager" VALUES (7, 'BT.QM7');
+INSERT INTO "queue_manager" VALUES (8, 'BT.QM8');
+INSERT INTO "queue_manager" VALUES (9, 'BT.QM9');
+INSERT INTO "queue_manager" VALUES (10, 'BT.QM10');
 
 ---
 
@@ -52,7 +267,7 @@ queue_manager_host
 queue_manager_id
 host_id
 
-CREATE TABLE "queue_manager_host" (queue_manager_id int REFERENCES queue_manager(id), host_id int REFERENCES host(id));
+CREATE TABLE "queue_manager_host" (queue_manager_id int PRIMARY KEY REFERENCES queue_manager(id), host_id int REFERENCES host(id));
 
 ALTER TABLE queue_manager_host ADD UNIQUE(queue_manager_id, host_id);
 
@@ -60,21 +275,95 @@ INSERT INTO "queue_manager_host" VALUES (1, 1);
 INSERT INTO "queue_manager_host" VALUES (2, 1);
 INSERT INTO "queue_manager_host" VALUES (3, 2);
 INSERT INTO "queue_manager_host" VALUES (4, 3);
+INSERT INTO "queue_manager_host" VALUES (5, 4);
+INSERT INTO "queue_manager_host" VALUES (6, 6);
+INSERT INTO "queue_manager_host" VALUES (7, 7);
+INSERT INTO "queue_manager_host" VALUES (8, 8);
+INSERT INTO "queue_manager_host" VALUES (9, 9);
+INSERT INTO "queue_manager_host" VALUES (10, 10);
 
 ---
 
-queue_manager_host
-queue_manager_id
+host
+id
+name
+
+CREATE TABLE "host" (id int PRIMARY KEY, name varchar(48));
+
+ALTER TABLE "host" ADD UNIQUE (name);
+
+INSERT INTO "host" VALUES (1, 'bld02752001');
+INSERT INTO "host" VALUES (2, 'bld02752002');
+INSERT INTO "host" VALUES (3, 'bld02752003');
+INSERT INTO "host" VALUES (4, 'bld02752004');
+INSERT INTO "host" VALUES (5, 'blt02752001');
+INSERT INTO "host" VALUES (6, 'blt02752002');
+INSERT INTO "host" VALUES (7, 'blt02752003');
+INSERT INTO "host" VALUES (8, 'blt02752004');
+INSERT INTO "host" VALUES (9, 'blp02752001');
+INSERT INTO "host" VALUES (10, 'blp02752002');
+INSERT INTO "host" VALUES (11, 'blp02752003');
+INSERT INTO "host" VALUES (12, 'blp02752004');
+
+---
+
+host_location
 host_id
+location_id
 
-CREATE TABLE "queue_manager_location" (queue_manager_id int REFERENCES queue_manager(id), location_id int REFERENCES location(id));
+CREATE TABLE "host_location" (host_id int PRIMARY KEY REFERENCES host(id), location_id int REFERENCES location(id));
 
-ALTER TABLE queue_manager_location ADD UNIQUE(queue_manager_id, location_id);
+ALTER TABLE host_location ADD UNIQUE(host_id, location_id);
 
-INSERT INTO "queue_manager_location" VALUES (1, 1);
-INSERT INTO "queue_manager_location" VALUES (2, 1);
-INSERT INTO "queue_manager_location" VALUES (3, 2);
-INSERT INTO "queue_manager_location" VALUES (4, 3);
+INSERT INTO "host_location" VALUES (1, 1);
+INSERT INTO "host_location" VALUES (2, 1);
+INSERT INTO "host_location" VALUES (3, 2);
+INSERT INTO "host_location" VALUES (4, 3);
+INSERT INTO "host_location" VALUES (5, 3);
+INSERT INTO "host_location" VALUES (6, 3);
+INSERT INTO "host_location" VALUES (7, 3);
+INSERT INTO "host_location" VALUES (8, 2);
+INSERT INTO "host_location" VALUES (9, 3);
+INSERT INTO "host_location" VALUES (10, 3);
+INSERT INTO "host_location" VALUES (11, 3);
+INSERT INTO "host_location" VALUES (12, 3);
+
+---
+
+environment
+id
+name
+
+CREATE TABLE "environment" (id int PRIMARY KEY, name varchar(24));
+
+ALTER TABLE "environment" ADD UNIQUE (name);
+
+INSERT INTO "environment" VALUES (1, 'DEV');
+INSERT INTO "environment" VALUES (2, 'TEST');
+INSERT INTO "environment" VALUES (3, 'PDN');
+
+---
+
+host_environment
+host_id
+environment_id
+
+CREATE TABLE "host_environment" (host_id int PRIMARY KEY REFERENCES host(id), environment_id int REFERENCES environment(id));
+
+ALTER TABLE host_environment ADD UNIQUE(host_id, environment_id);
+
+INSERT INTO "host_environment" VALUES (1, 1);
+INSERT INTO "host_environment" VALUES (2, 1);
+INSERT INTO "host_environment" VALUES (3, 1);
+INSERT INTO "host_environment" VALUES (4, 1);
+INSERT INTO "host_environment" VALUES (5, 2);
+INSERT INTO "host_environment" VALUES (6, 2);
+INSERT INTO "host_environment" VALUES (7, 2);
+INSERT INTO "host_environment" VALUES (8, 2);
+INSERT INTO "host_environment" VALUES (9, 3);
+INSERT INTO "host_environment" VALUES (10, 3);
+INSERT INTO "host_environment" VALUES (11, 3);
+INSERT INTO "host_environment" VALUES (12, 3);
 
 ---
 
@@ -83,9 +372,52 @@ id
 name
 
 CREATE TABLE "location" (id int PRIMARY KEY, name varchar(24));
+
+ALTER TABLE "location" ADD UNIQUE (name);
+
 INSERT INTO "location" VALUES (1, 'Reigate');
 INSERT INTO "location" VALUES (2, 'St Albans');
 INSERT INTO "location" VALUES (3, 'Tinsley Park');
+
+---
+
+location_platform
+location_id
+platform_id
+
+CREATE TABLE "location_platform" (location_id int PRIMARY KEY REFERENCES location(id), platform_id int REFERENCES platform(id));
+
+ALTER TABLE location_platform ADD UNIQUE(location_id, platform_id);
+
+INSERT INTO "location_platform" VALUES (1, 1);
+INSERT INTO "location_platform" VALUES (2, 1);
+INSERT INTO "location_platform" VALUES (3, 1);
+
+---
+
+platform
+id
+name
+
+CREATE TABLE "platform" (id int PRIMARY KEY, name varchar(24));
+
+ALTER TABLE "platform" ADD UNIQUE (name);
+
+INSERT INTO "platform" VALUES (1, 'EMB EC');
+INSERT INTO "platform" VALUES (2, 'z/OS');
+
+---
+
+application
+id
+name
+app_id
+
+CREATE TABLE "application" (id int PRIMARY KEY, name varchar(24), app_id varchar(24));
+
+ALTER TABLE "application" ADD UNIQUE (name);
+
+INSERT INTO "application" VALUES (1, 'MQ', 'APP02752');
 
 ---
 
